@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["daveg7lee <daveg7lee@gmail.com>"]
 readme = "README.md"
-packages = [{include = "dics_meal_backend"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
