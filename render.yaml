@@ -5,7 +5,7 @@ services:
     plan: free
     region: singapore
     buildCommand: "./build.sh"
-    startCommand: "gunicorn dicsmeal.wsgi:application"
+    startCommand: "gunicorn meal_upload.wsgi:application"
     envVars:
       - key: SECRET_KEY
         generateValue: true
