@@ -45,14 +45,13 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "meal.apps.MealConfig",
     "rest_framework",
-    'corsheaders',
-    'whitenoise'
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
-    'whitenoise.middleware.WhiteNoiseMiddleware'
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
