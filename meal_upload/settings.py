@@ -45,7 +45,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "meal.apps.MealConfig",
     "rest_framework",
-    'corsheaders'
+    'corsheaders',
+    'whitenoise'
 ]
 
 MIDDLEWARE = [
