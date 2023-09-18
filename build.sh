@@ -4,5 +4,5 @@ set -o errexit
 
 poetry install
 
-python manage.py collectstatic
-python manage.py migrate
+python3 manage.py collectstatic
+python3 manage.py migrate
