@@ -3,11 +3,13 @@ databases:
     databaseName:
     user: dicsmeal
     region: singapore
+    plan: free
 
 services:
   - type: web
     name: dicsmeal
     runtime: python
+    plan: free
     region: singapore
     buildCommand: "./build.sh"
     startCommand: "gunicorn mysite.wsgi:application"
